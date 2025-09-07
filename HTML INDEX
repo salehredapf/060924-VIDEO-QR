@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Ma Vidéo</title>
+  </head>
+  <body style="text-align:center; background:#000; color:white;">
+    <h2>🎬 Vidéo</h2>
+    <video controls width="90%">
+      <source src="060924 VIDEO.mp4" type="video/mp4">
+      Votre navigateur ne supporte pas la vidéo.
+    </video>
+  </body>
+</html>
