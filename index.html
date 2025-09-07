@@ -1,14 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
-    <meta charset="UTF-8">
-    <title>Ma Vidéo</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vidéo QR</title>
+    <style>
+      body { margin:0; background:#000; color:#fff; font-family:system-ui; text-align:center; }
+      .wrap { max-width:900px; margin:0 auto; padding:16px; }
+      video { width:100%; height:auto; }
+    </style>
   </head>
-  <body style="text-align:center; background:#000; color:white;">
-    <h2>🎬 Vidéo</h2>
-    <video controls width="90%">
-      <source src="060924 VIDEO.mp4" type="video/mp4">
-      Votre navigateur ne supporte pas la vidéo.
-    </video>
+  <body>
+    <div class="wrap">
+      <h2>🎬 Lecture de la vidéo</h2>
+      <video controls playsinline preload="metadata">
+        <source src="060924VIDEO.mp4" type="video/mp4" />
+        Votre navigateur ne supporte pas la vidéo.
+      </video>
+    </div>
   </body>
 </html>
